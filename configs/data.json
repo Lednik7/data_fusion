@@ -1,0 +1,17 @@
+{
+  "data_path": "data/data_fusion_train.parquet",
+  "tokenizer": {
+    "pretrained": false,
+    "vocab_size": 30000,
+    "corpus_save_path": "./tmp/task1/corpus.txt",
+    "tokenizer_save_path": "./tmp/task1/tokenizer",
+    "tokenizer_name": "wordpiece",
+    "min_frequency": 2,
+    "strip_accents": true,
+    "clean_text": true,
+    "lowercase": true
+  },
+  "label_encoder_save_path": "./tmp/task1/label_encoder.pkl",
+  "pretrain_save_path": "./tmp/task1/pretrain_data.pkl",
+  "finetune_save_path": "./tmp/task1/finetune_data.pkl"
+}
